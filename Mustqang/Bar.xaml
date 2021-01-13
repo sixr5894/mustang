@@ -1,0 +1,27 @@
+﻿<Window x:Class="Mustqang.Bar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mustqang"
+        mc:Ignorable="d"
+        Title="Bar" Height="450" Width="662.295">
+    <Grid>
+        <Button Content="Дневное посещение " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="181" Height="58" Click="Button_Click"/>
+        <Button Content="Сок" HorizontalAlignment="Left" Margin="456,10,0,0" VerticalAlignment="Top" Width="181" Height="58" Click="Button_Click_2"/>
+        <Button Content="Сникерс" HorizontalAlignment="Left" Margin="231,10,0,0" VerticalAlignment="Top" Width="181" Height="58" Click="Button_Click_1"/>
+        <Button Content="X-Plode" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" Width="181" Height="58" Click="Button_Click_3"/>
+        <Button Content="Вода" HorizontalAlignment="Left" Margin="231,150,0,0" VerticalAlignment="Top" Width="181" Height="58" Click="Button_Click_4"/>
+        <Button Content="Бцаа" HorizontalAlignment="Left" Margin="456,150,0,0" VerticalAlignment="Top" Width="181" Height="58" Click="Button_Click_5"/>
+        <Label x:Name="Dialy_price" Content="" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Width="146" Height="42"/>
+        <Label x:Name="Snikers_Price" Content="" HorizontalAlignment="Left" Margin="231,73,0,0" VerticalAlignment="Top" Width="146" Height="42"/>
+        <Label x:Name="Juice_Price" Content="" HorizontalAlignment="Left" Margin="456,73,0,0" VerticalAlignment="Top" Width="146" Height="42"/>
+        <Label x:Name="Xplode_price" Content="" HorizontalAlignment="Left" Margin="10,213,0,0" VerticalAlignment="Top" Width="146" Height="42"/>
+        <Label x:Name="Water_Price" Content="" HorizontalAlignment="Left" Margin="231,213,0,0" VerticalAlignment="Top" Width="146" Height="42"/>
+        <Label x:Name="Bcaa_Price" Content="" HorizontalAlignment="Left" Margin="456,213,0,0" VerticalAlignment="Top" Width="146" Height="42"/>
+        <Label x:Name="Total" Content="" HorizontalAlignment="Left" Margin="231,260,0,0" VerticalAlignment="Top" Width="180" Height="42"/>
+        <Button Content="Забрать деньги" HorizontalAlignment="Left" Margin="456,260,0,0" VerticalAlignment="Top" Width="181" Height="42" Click="Button_Click_6"/>
+        <Button Content="Изменить цены" HorizontalAlignment="Left" Margin="456,343,0,0" VerticalAlignment="Top" Width="181" Height="46" Click="Button_Click_7"/>
+
+    </Grid>
+</Window>
